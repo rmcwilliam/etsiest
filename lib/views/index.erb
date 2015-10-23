@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="main.css">
+        <title>Etsy</title>
+    </head>
+
+    <body>
+
+<!-- <ul class="Navbar">
+  <li>Clothing & Accessories</li>
+  <li>Jewelry</li>
+  <li>Craft Supplies & Tools</li>
+  <li>Weddings</li>
+  <li>Entertainment</li>
+  <li>Home & Living</li>
+  <li>Kids & Baby</li>
+  <li>Vintage</li>
+</ul> -->
+
+    
+        <ul class="items">
+          <% results.each do |result| %>
+            <%= erb :listing, locals: { result: result} %>
+          <% end %>
+        </ul>
+
+    </body>
+</html>

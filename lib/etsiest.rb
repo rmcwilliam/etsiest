@@ -10,15 +10,12 @@ module Etsiest
 
 
   get "/search" do    # generates data used to duplicate page; drill down and store it! Send data to erb and then drill down? 
-  response = Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => 'whiskey') 
-  response.result
-  binding.pry
+  response = Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => 'whiskey')
+  response = response.result
   erb :index, locals: {results: response}
   end
 
 #binding.pry
-
-
 
     run! if app_file == $0
   end

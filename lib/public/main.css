@@ -1,0 +1,55 @@
+body{
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.images {
+	float: left;
+	margin:0px;
+	width:275px;
+	padding:px;
+	height:px;
+	border-style: solid;
+	font-size:10px;
+
+}
+
+/*.title {  Is this needed?
+
+}*/
+
+.title p {
+	overflow: hidden;
+	width:;
+	height: 14px;
+}
+
+.Navbar{
+
+}
+
+.shop span {
+	float:left;
+	height:;
+}
+
+.price {
+	float:right;
+	height:;
+}
+
+.price p {
+
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+a{
+
+}
+
+image{
+
+}
