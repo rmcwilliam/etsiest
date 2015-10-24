@@ -1,55 +1,130 @@
-body{
+body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+body {
+	color:;
+	background-color:#F5F5F1;
+}
+
 .images {
-	float: left;
-	margin:0px;
-	width:275px;
-	padding:px;
-	height:px;
-	border-style: solid;
-	font-size:10px;
+	position:;
+	float:right;
+	margin-right: 0px;  /*top right bottom left*/ 
+	margin-left: 89px;
+	width:225px;
+	text-align: center;
+	padding:2px 0px 0px 0px;
+	background-color:;
+	height:;
+	border-style:;
+	border:;
+	font-size:13px;
+	box-shadow: 1px 1px 1px;
+}
+.images a {
+	border:solid;
+	border-color: red;
 
 }
+
+.images img {
+	border-style:solid;
+	border-color: yellow;
+}
+
+images.center {text-align:;}
 
 /*.title {  Is this needed?
 
 }*/
 
 .title p {
-	overflow: hidden;
+	overflow:hidden;
 	width:;
-	height: 14px;
+	height:14px;
+	border:solid;
+	background-color:;
+	color:#555;
 }
 
-.Navbar{
+.Navbar {                
+	color:#888;
+	font-family:"Graphik Web";
+	font-size:14px;
+	background-color:#FFF;
+	height:43px;
+	border:solid;           /*look at this relative to ul and li...?*/
+}
 
+.Navbar li {
+	display:inline;
+	padding:12px;    /*sets padding for all four sides*/ 
+	border:solid;
+	border-color: red;
+}
+
+.Navbar ul {
+	height: auto:;
+	padding:10px 0px;     /*sets padding for top/bottom & left/right*/
+	text-align: center;
+	border:solid;
+	border-color:purple;
 }
 
 .shop span {
 	float:left;
+	font-size:12px;
+	font-family:"Graphik Web";
+	color:#AAA;
+	background-color:;
+	width:;
 	height:;
+	border:solid;
+}
+
+.price:before {
+	content: '$';
 }
 
 .price {
 	float:right;
 	height:;
+	font-family:"Graphik Web";
+	font-size: 12px;
+	color:#78c042;
+	background-color:;
+	border:solid;
 }
 
-.price p {
+.price span {
 
 }
 
-ul{
+.sidenavbar {
+	width:220px;
+	margin-top:50px;
+	margin-bottom: ;
+	margin-left:165px ;
+	margin-right: ;
+	background-color:#FFF;
+	border:solid;              /* displays border around outside*/
+}
+
+.sidenavbar li {
+	border:solid;               /*displays border just around each list item*/
+}
+
+.sidenavbar ul {
+	border:solid;            /*displays border arouns entire set of list and around bullet point area*/
 	list-style-type: none;
-
 }
 
-a{
-
+.sidetitle {
+	border:solid;
 }
 
-image{
+ul {
+	list-style-type:none;
 
 }
