@@ -1,5 +1,7 @@
 body {
 	font-family: Verdana, Geneva, sans-serif;
+	margin-left:;
+	margin-right:px;
 }
 
 body {
@@ -8,44 +10,56 @@ body {
 }
 
 .images {
-	position:;
-	float:right;
-	margin-right: 0px;  /*top right bottom left*/ 
-	margin-left: 89px;
-	width:225px;
-	text-align: center;
-	padding:2px 0px 0px 0px;
-	background-color:;
+	clear:;
+	float:left;
+	margin-right:10px;  /*top right bottom left*/ 
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding-left:0px;
+	padding-right:0px; 
+	padding-bottom:0px;
+	width:203px;    /*reducing this, reduced the white space behind the picture*/
+	text-align:;
+	padding:;
+	background-color:white;
 	height:;
 	border-style:;
-	border:;
-	font-size:13px;
+	border:solid;
+	font-size:;
 	box-shadow: 1px 1px 1px;
 }
+
+
 .images a {
-	border:solid;
-	border-color: red;
+	border:;
+	border-color:;
 
 }
 
 .images img {
-	border-style:solid;
-	border-color: yellow;
+	border-style:;
+	border-color:;
+	background-color:;
+	height:150px;
+	width:204px;
+	margin-left:px;
+
 }
 
 images.center {text-align:;}
 
-/*.title {  Is this needed?
-
-}*/
 
 .title p {
 	overflow:hidden;
 	width:;
+	margin-top:0px;
+	margin-bottom:0px;
 	height:14px;
-	border:solid;
+	border:;
 	background-color:;
 	color:#555;
+	font-size: 12px;
 }
 
 .Navbar {                
@@ -89,6 +103,7 @@ images.center {text-align:;}
 
 .price {
 	float:right;
+	margin-top:;
 	height:;
 	font-family:"Graphik Web";
 	font-size: 12px;
@@ -102,11 +117,15 @@ images.center {text-align:;}
 }
 
 .sidenavbar {
+	float:;
+	clear:;
+	position:;       /*float left allowed pics to rise up on the right side*/
 	width:220px;
 	margin-top:50px;
-	margin-bottom: ;
-	margin-left:165px ;
+	margin-bottom:;
+	margin-left:100px ;
 	margin-right: ;
+	height:;
 	background-color:#FFF;
 	border:solid;              /* displays border around outside*/
 }
@@ -120,11 +139,64 @@ images.center {text-align:;}
 	list-style-type: none;
 }
 
-.sidetitle {
+/*.sidetitle {
+	float:left;
+	border:solid;
+}*/
+
+.sidenavbar2 {
+	float:;
+	clear:;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:200px;
+	margin-bottom:;
+	width:220px;
+	border:solid;
+
+}
+
+.sidenavbar2 li {
 	border:solid;
 }
+
+.sidenavbar2 ul {
+	border:solid;
+
+}
+/*.sidetitle2 {
+	float:;
+	clear:both;
+	border:solid;
+	margin-left: ;
+	margin-right:px ;
+	margin-top:500px ;
+	margin-bottom: ;
+	padding-left:;
+	padding-right: ;
+}*/
+/*.sidetitle2 {
+	float:left;
+	position:;
+	margin-left: ;
+	margin-right:px;
+	margin-top: ;
+	margin-bottom: ;
+	border:solid;
+
+}*/
+
 
 ul {
 	list-style-type:none;
 
 }
+
+
+
+
+
+
+
+
+
