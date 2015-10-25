@@ -20,12 +20,13 @@
          </ul>
         </div>
 
-       <!--  <span class="sidetitle">
-        <span>Show results for:</span>
-        </span> -->
+   <div class="body">
+     <div class="left-side-bars">
+       <p class="side_nav_title">Show results for:</p>
 
         <div class="sidenavbar">
-         <ul>
+          <p><b>All Categories</b>.</p>
+          <ul>
             <li>Stuff</li>
             <li>Stuff</li>
             <li>Stuff</li>
@@ -41,15 +42,13 @@
             <li>Stuff</li>
             <li>Stuff</li>
             <li>Stuff</li>
-         </ul>
+          </ul>
         </div>
 
-      <!--   <span class="sidetitle2">
-        <span>Refine your search</span>
-        </span> -->
-        <!-- <h5 class="sidetitle2">Refine your search</h5> -->
+        <p class="side_nav_title2">Refine your search</p>
+
         <div class="sidenavbar2">
-         <ul>
+          <ul>
             <li>Stuff</li>
             <li>Stuff</li>
             <li>Stuff</li>
@@ -65,16 +64,17 @@
             <li>Stuff</li>
             <li>Stuff</li>
             <li>Stuff</li>
-         </ul>
+          </ul>
         </div>
+    </div>
     
-        <ul class="items">
+        <div class="items">
           <% results.each do |result| %>
             <%= erb :listing, locals: { result: result} %>
           <% end %>
-        </ul>
-
-    </body>
+        </div>
+  </div>
+</body>
 </html>
 
 
