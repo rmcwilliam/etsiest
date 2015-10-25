@@ -1,25 +1,35 @@
 body {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family:;
 	margin-left:;
-	margin-right:px;
-}
-
-body {
+	margin-right:;
 	color:;
 	background-color:#F5F5F1;
 }
 
-.images {
-	clear:;
+.body {
+	width:900px;
+	margin:auto;
+	border:solid;
+}
+
+.items {
 	float:left;
-	margin-right:10px;  /*top right bottom left*/ 
-	margin-left:10px;
-	margin-bottom:10px;
-	margin-top:10px;
-	padding-left:0px;
-	padding-right:0px; 
-	padding-bottom:0px;
-	width:203px;    /*reducing this, reduced the white space behind the picture*/
+	width:80%;
+}
+
+.images {
+	display:inline-block;
+	clear:;
+	position:;
+	float:;
+	margin-right:;  
+	margin-left:;
+	margin-bottom:;
+	margin-top:;
+	padding-left:;
+	padding-right:; 
+	padding-bottom:;
+	width:;    
 	text-align:;
 	padding:;
 	background-color:white;
@@ -41,9 +51,9 @@ body {
 	border-style:;
 	border-color:;
 	background-color:;
-	height:150px;
-	width:204px;
-	margin-left:px;
+	height:;
+	width:;
+	margin-left:;
 
 }
 
@@ -51,6 +61,7 @@ images.center {text-align:;}
 
 
 .title p {
+	display:inline-block;
 	overflow:hidden;
 	width:;
 	margin-top:0px;
@@ -62,32 +73,39 @@ images.center {text-align:;}
 	font-size: 12px;
 }
 
-.Navbar {                
+.Navbar {    
+	display:inline-block;  
+	width:100%;
+	height:50px;          
 	color:#888;
 	font-family:"Graphik Web";
 	font-size:14px;
 	background-color:#FFF;
-	height:43px;
-	border:solid;           /*look at this relative to ul and li...?*/
+	border:solid;           
+	
 }
 
 .Navbar li {
-	display:inline;
-	padding:12px;    /*sets padding for all four sides*/ 
+	display:inline-block;
+	padding:10px;    
+	height:20px;
 	border:solid;
 	border-color: red;
 }
 
 .Navbar ul {
-	height: auto:;
-	padding:10px 0px;     /*sets padding for top/bottom & left/right*/
-	text-align: center;
+	display:;
+	margin:auto;
+	height:;
+	padding:0px;     
+	text-align:center;
 	border:solid;
 	border-color:purple;
 }
 
 .shop span {
-	float:left;
+	float:;
+	display:inline-block;
 	font-size:12px;
 	font-family:"Graphik Web";
 	color:#AAA;
@@ -102,7 +120,8 @@ images.center {text-align:;}
 }
 
 .price {
-	float:right;
+	float:;
+	display:inline-block;
 	margin-top:;
 	height:;
 	font-family:"Graphik Web";
@@ -112,48 +131,65 @@ images.center {text-align:;}
 	border:solid;
 }
 
-.price span {
+.left-side-bars{
+	float:left;
+}
 
+.side_nav_title {
+	float:;
+	clear:;
+	border:solid;
+	margin-left:;
+	margin-right:;
+	margin-top:;
+	margin-bottom: ;
+	padding-left:;
+	padding-right: ;
 }
 
 .sidenavbar {
 	float:;
 	clear:;
-	position:;       /*float left allowed pics to rise up on the right side*/
-	width:220px;
-	margin-top:50px;
+	position:;       
+	width:;
+	margin-top:;
 	margin-bottom:;
-	margin-left:100px ;
+	margin-left:;
 	margin-right: ;
 	height:;
 	background-color:#FFF;
-	border:solid;              /* displays border around outside*/
+	border:solid;              
 }
 
 .sidenavbar li {
-	border:solid;               /*displays border just around each list item*/
+	border:solid;               
 }
 
 .sidenavbar ul {
-	border:solid;            /*displays border arouns entire set of list and around bullet point area*/
-	list-style-type: none;
+	border:solid;            
+	list-style-type:none;
 }
 
-/*.sidetitle {
-	float:left;
+.side_nav_title2 {
+	float:;
+	position:;
+	margin-left:;
+	margin-right:;
+	margin-top:;
+	margin-bottom:;
 	border:solid;
-}*/
+}
 
 .sidenavbar2 {
 	float:;
 	clear:;
-	margin-left:100px;
-	margin-right:100px;
-	margin-top:200px;
+	position:;
+	margin-left:;
+	margin-right:;
+	margin-top:;
 	margin-bottom:;
-	width:220px;
+	width:;
 	border:solid;
-
 }
 
 .sidenavbar2 li {
@@ -164,28 +200,6 @@ images.center {text-align:;}
 	border:solid;
 
 }
-/*.sidetitle2 {
-	float:;
-	clear:both;
-	border:solid;
-	margin-left: ;
-	margin-right:px ;
-	margin-top:500px ;
-	margin-bottom: ;
-	padding-left:;
-	padding-right: ;
-}*/
-/*.sidetitle2 {
-	float:left;
-	position:;
-	margin-left: ;
-	margin-right:px;
-	margin-top: ;
-	margin-bottom: ;
-	border:solid;
-
-}*/
-
 
 ul {
 	list-style-type:none;
