@@ -1,20 +1,23 @@
-
+<div class="item">
   <div class="images">
 	 <a href="<%= result["url"]%>">
 	   <img src="<%= result["Images"][0]["url_170x135"]%>"> 
 	 </a>
    </div>
 
+  <div class="info">
 	<div class="title">
-	  <p><%= result["title"] %></p>
+	  <%= result["title"] %>
 	</div>
 	<div class="price">
-	  <span><%= result["price"] %></span>
-	  <span><%= result["currency_code"] %></span>
+	  <%= result["price"] %>
+	  <%= result["currency_code"] %>
 	</div>
 	<div class="shop">
-	  <span><%= result["Shop"]["shop_name"] %></span>
-	</div>       
+	  <%= result["Shop"]["shop_name"] %>
+	</div> 
+  </div>  
+</div>    
 
 
 
