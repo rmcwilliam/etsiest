@@ -9,18 +9,23 @@ module Etsiest
     set :logging, true
 
 
-  get "/search" do    # generates data used to duplicate page; drill down and store it! Send data to erb and then drill down? 
-  response = Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => 'whiskey')
-  response = response.result
-  erb :index, locals: {results: response}
+  get "/search" do        #search?q=whiskey
+  if params["q"]
+    response = Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => params["q"])
+    response = response.result
+    erb :index, locals: {results: response}
+
+  else
+    status 204
+    {message: "ah ah ah you didn't say the magic word!!!"}
   end
 
-#binding.pry
+  end
+
 
     run! if app_file == $0
   end
 end
 
-#
 # ETSY_KEY=foobarbaz bundle exec ruby lib/etsiest.rb
 # alias etsy='ETSY_KEY=ENTER KEY HERE bundle exec ruby lib/etsiest.rb'
