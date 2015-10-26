@@ -1,15 +1,10 @@
 body {
-	font-family:;
-	margin-left:;
-	margin-right:;
-	color:;
 	background-color:#F5F5F1;
 }
 
 .body {
 	width:1100px;
 	margin:auto;
-	border:;
 }
 
 .items {
@@ -18,60 +13,25 @@ body {
 	margin-top:56px;
 	margin-left:15px;
 	border:;
-	font-size:0;   /*WTF*/
-	border-color:;
+	font-size:0;  
 }
 
 .item {
 	display:inline-block;
 	width:225px;
-	margin:;
-	border:;
-	border-color:;
 }
 
 .images {
 	display:inline-block;
-	clear:;
-	position:;
-	float:;
-	margin-right:;  
-	margin-left:;
-	margin-bottom:;
-	margin-top:;
-	padding-left:;
-	padding-right:; 
-	padding-bottom:;
-	width:;    
-	text-align:;
-	padding:;
-	background-color:;
 	height:10px;
-	border-style:;
-	border:;
-	border-color:;
-	font-size:;
-	box-shadow:;
 }
 
-
-.images a {
-	width:px;
-	border:;
-	border-color:;
-
-}
 
 .images img {
-	border:;
-	border-color:;
-	background-color:;
 	height:175px;
-	margin-bottom:;
-	margin-top:px;
 	padding:0px;
 	width:214px;
-	margin-left:;
+	border-radius:2px;
 
 }
 
@@ -79,11 +39,10 @@ body {
 .info {
 	display:inline-block;
 	margin-bottom:15px;
-	margin-top:;
 	width:214px;
 	height:45px;
 	background-color:#FFFFFF; 
-	border:;
+	border-radius:0px 0px 2px 2px;
 }
 
 .title {
@@ -112,7 +71,7 @@ body {
 	font-family:"Graphik Web";
 	font-size: 12px;
 	color:#78c042;
-	border:;
+	
 }
 
 .shop {
@@ -122,114 +81,96 @@ body {
 	font-size:12px;
 	font-family:"Graphik Web";
 	color:#AAA;
-	border:;
 }
 
 
 .Navbar {    
-	display:inline-block;  
+	display:inline-block; 
 	width:100%;
-	height:50px;          
-	color:#888;
-	font-family:"Graphik Web";
-	font-size:14px;
-	background-color:#FFF;
-	border:;           
+	height:47px;         
+	background-color:#FFFFFF;       
 }
 
 .Navbar li {
-	display:inline-block;
+	display:inline;
 	padding:10px;    
 	height:20px;
-	border:solid;
-	border-color:;
+
 }
 
-.Navbar ul {
-	display:;
-	margin:auto;
-	height:;
-	padding:0px;     
+.Navbar ul { 
+	margin:auto;  
+	padding:0; 
+	font-size:14px;
+	color:#3C3C3C;
 	text-align:center;
-	border:solid;
-	border-color:purple;
+	padding:15px;
 }
 
 .left-side-bars{
 	float:left;
 	margin-left:95px;
-	width:px;
-	border:solid;
-	border:yellow;
 }
 
 .side_nav_title {
-	float:;
-	clear:;
-	border:solid;
-	border-color:red;
+	color:#555;
+	margin-top: 25px;
 	width:200px;
-	margin-left:;
-	margin-right:;
-	margin-top:;
-	margin-bottom: ;
-	padding-left:;
-	padding-right: ;
+	font-family: "Arial";
+	font-size: 13px
+}
+
+
+.sidenavbar p {
+	color:#555;
+	margin-left:10px;
 }
 
 .sidenavbar {
-	float:;
-	clear:;
-	position:;       
-	width:;
-	margin-top:;
-	margin-bottom:;
-	margin-left:;
-	margin-right: ;
-	height:;
 	background-color:#FFF;
-	border:;
-	border-color: blue;              
+	font-family: "Arial";
+	font-size: 13px;
+	            
 }
 
 .sidenavbar li {
-	border:;               
+	text-align:left;
+	padding: 3px;
+              
 }
 
-.sidenavbar ul {
-	border:;            
+.sidenavbar ul {          
+	color:#0192B5;
 	list-style-type:none;
-}
+	text-align:left;
+	padding:8px;
 
+}
 .side_nav_title2 {
-	float:;
-	position:;
-	margin-left:;
-	margin-right:;
-	margin-top:;
-	margin-bottom:;
-	border:solid;
+	color:#555;
+	font-family: "Arial";
+	font-size: 13px
+
 }
 
 .sidenavbar2 {
-	float:;
-	clear:;
-	position:;
-	margin-left:;
-	margin-right:;
-	margin-top:;
-	margin-bottom:;
-	width:;
-	border:solid;
+	background-color:#FFF;
+	font-family: "Graphik Web";
+	font-size: 14px;
+	height:460px;
+	            
 }
 
 .sidenavbar2 li {
-	border:solid;
+	padding: 2px;
+	
 }
 
 .sidenavbar2 ul {
-	border:solid;
-
+	list-style-type:none;
+	color:#0192B5;
+	text-align: left;
+	padding:10px;
 }
 
 ul {
